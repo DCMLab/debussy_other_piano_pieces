@@ -1,0 +1,5 @@
+Warnings encountered during the last execution of ms3 review (v1.2.9)
+=====================================================================
+
+WARNING  ms3.Parse.debussy_other_piano_pieces.l105_masques
+	Event already contained a 'Fingering_text': 1
