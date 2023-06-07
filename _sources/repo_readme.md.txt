@@ -1,5 +1,5 @@
 ![Version](https://img.shields.io/github/v/release/DCMLab/debussy_other_piano_pieces?display_name=tag)
-![DOI](https://zenodo.org/badge/{{ zenodo_badge_id }}.svg)](https://zenodo.org/badge/latestdoi/{{ zenodo_badge_id }})
+[![DOI](https://zenodo.org/badge/563843017.svg)](https://zenodo.org/badge/latestdoi/563843017)
 ![GitHub repo size](https://img.shields.io/github/repo-size/DCMLab/debussy_other_piano_pieces)
 ![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-9cf)
 
@@ -12,26 +12,37 @@ and serves as welcome page for both
 
 # Claude Debussy – Other Piano Pieces
 
+This dataset is part of the [The Claude Debussy Solo Piano Corpus](https://github.com/DCMLab/debussy_piano) which has been released together with the publication
+
+> Laneve, S., Schaerf, L., Cecchetti, G., Hentschel, J., & Rohrmeier, M. (in press). The diachronic development of Debussy’s musical style: A corpus study with Discrete Fourier Transform. Humanities and Social Sciences Communications.
 
 
 ## License
 
 Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License ([CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)).
 
-## Naming convention
-
-The file names listed in the [Overview](#overview) below refer to the following numbering of the sonatas from 1-32.
-For example, the four movements of sonata no. 1 are named `01-1`, `01-2`, `01-3`, and `01-4`.
-
-| Number                              | Opus (Name)                       |
-|-------------------------------------|-----------------------------------|
-| Piano Sonata No.1 in F minor        | Op.2 No.1                         |
-
 ## Overview
-|file_name|measures|labels|standard| annotators      | reviewers |
-|---------|-------:|-----:|--------|-----------------|-----------|
-|01-1     |     152|   241|2.3.0   | Annotator names | AN        |
+|   file_name   |measures|labels|
+|---------------|-------:|-----:|
+|l000_etude     |      71|     0|
+|l000_soirs     |      23|     0|
+|l009_danse     |      92|     0|
+|l067_mazurka   |     138|     0|
+|l068_reverie   |     101|     0|
+|l069_tarentelle|     333|     0|
+|l070_ballade   |     105|     0|
+|l071_valse     |     151|     0|
+|l082_nocturne  |      77|     0|
+|l099_cahier    |      55|     0|
+|l105_masques   |     381|     0|
+|l106_isle      |     255|     0|
+|l108_morceau   |      27|     0|
+|l114_petit     |      87|     0|
+|l115_hommage   |     118|     0|
+|l121_plus      |     148|     0|
+|l132_berceuse  |      68|     0|
+|l133_page      |      38|     0|
+|l138_elegie    |      21|     0|
 
 
-
-*Overview table updated using [ms3](https://johentsch.github.io/ms3/) 1.1.1.*
+*Overview table automatically updated using [ms3](https://johentsch.github.io/ms3/).*
