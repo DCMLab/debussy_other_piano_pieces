@@ -32,12 +32,13 @@ If you are only interested in the current version of the corpus, you can downloa
 Data Formats
 ============
 
-Each piece in this corpus is represented by four files with identical names, each in its own folder. For example, the first piece, the *Étude retrouvée* (an alternative version of no. 11 of the *Douze Études*), has the following files:
+Each piece in this corpus is represented by five files with identical names, each in its own folder. For example, the first piece, the *Étude retrouvée* (an alternative version of no. 11 of the *Douze Études*), has the following files:
 
--  ``MS3/l000_etude.mscx``: Uncompressed MuseScore file including the music and annotation labels.
--  ``notes/l000_etude.tsv``: A table of all note heads contained in the score and their relevant features (not each of them represents an onset, some are tied together)
--  ``measures/l000_etude.tsv``: A table with relevant information about the measures in the score.
--  ``harmonies/l000_etude.tsv``: A list of the included harmony labels (including cadences and phrases) with their positions in the score.
+-  ``MS3/l000_etude.mscx``: Uncompressed MuseScore 3.6.2 file including the music and annotation labels.
+-  ``notes/l000_etude.notes.tsv``: A table of all note heads contained in the score and their relevant features (not each of them represents an onset, some are tied together)
+-  ``measures/l000_etude.measures.tsv``: A table with relevant information about the measures in the score.
+-  ``chords/l000_etude.chords.tsv``: A table containing layer-wise unique onset positions with the musical markup (such as dynamics, articulation, lyrics, figured bass, etc.).
+-  ``harmonies/l000_etude.harmonies.tsv``: A table of the included harmony labels (including cadences and phrases) with their positions in the score.
 
 Opening Scores
 --------------
